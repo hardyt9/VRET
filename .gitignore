@@ -98,3 +98,12 @@ crashlytics-build.properties
 *.crash
 *.dmp
 *.stacktrace
+
+# Ignore Unity Package Manager lock file (auto-generated)
+Packages/packages-lock.json
+
+# Ignore cached package files
+Packages/.git/
+Packages/.cache/
+Packages/.tmp/
+
