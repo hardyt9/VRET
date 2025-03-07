@@ -115,4 +115,12 @@ Packages/.tmp/
 # Ignore Unity Artifacts (generated compilation files)
 [Aa]rtifacts/
 
+# try ignoring generated files again
+# Ignore Unity's Library, Temp, Logs, and Artifacts (auto-generated files)
+[Ll]ibrary/
+[Tt]emp/
+[Ll]ogs/
+[Aa]rtifacts/
+
+
 
