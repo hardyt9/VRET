@@ -112,3 +112,7 @@ Packages/.tmp/
 **/Readme.*
 **/readme.*
 
+# Ignore Unity Artifacts (generated compilation files)
+[Aa]rtifacts/
+
+
