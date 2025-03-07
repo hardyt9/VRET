@@ -4,13 +4,13 @@
 #
 
 ### Unity auto-generated folders (DO NOT TRACK)
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 
 ### Ignore Unity tutorial files
 [Aa]ssets/TutorialInfo/
