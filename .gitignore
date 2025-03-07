@@ -107,3 +107,8 @@ Packages/.git/
 Packages/.cache/
 Packages/.tmp/
 
+# Ignore all Readme files
+**/README.*
+**/Readme.*
+**/readme.*
+
