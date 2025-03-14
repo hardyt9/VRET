@@ -719,7 +719,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: acc029834958715448852e4e43155dd2, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: acc029834958715448852e4e43155dd2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -1407,9 +1407,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283629438}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 371be6bf05148a040950900f75897288, type: 3}
+  m_Script: {fileID: 11500000, guid: ffb5928999fcfa347be265244df9dd69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
@@ -2218,7 +2218,7 @@ TerrainCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_TerrainData: {fileID: 15600000, guid: 141eab223d463274d9b525f787362e01, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 7dc1dda7fd42be44d820eeea6888abfb, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1856506214
 Terrain:
@@ -2229,7 +2229,7 @@ Terrain:
   m_GameObject: {fileID: 1856506212}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: 141eab223d463274d9b525f787362e01, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 7dc1dda7fd42be44d820eeea6888abfb, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
