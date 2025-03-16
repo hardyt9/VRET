@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Level1/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/exciteometer/Scenes/ExciteOMeter_OfflineAnalysis.unity
+    guid: 3fd7849131ca960428e5299c9b955fec
+  - enabled: 1
+    path: Assets/Level1/Practice.unity
+    guid: 8a526dee291f5454481b5f4cd50c1c1d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b40391d49493c484bbefff8c1d5c2243, type: 2}
