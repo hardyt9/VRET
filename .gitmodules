@@ -1,0 +1,3 @@
+[submodule "Capstone/Assets/exciteometer"]
+	path = Capstone/Assets/exciteometer
+	url = https://github.com/luisqtr/exciteometer.git

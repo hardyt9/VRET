@@ -10,7 +10,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
+<<<<<<< Updated upstream
       "version": "1.8.19",
+=======
+      "version": "1.8.18",
+>>>>>>> Stashed changes
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -95,7 +99,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
+<<<<<<< Updated upstream
       "version": "17.0.4",
+=======
+      "version": "17.0.3",
+>>>>>>> Stashed changes
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -114,8 +122,13 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
+<<<<<<< Updated upstream
         "com.unity.render-pipelines.core": "17.0.4",
         "com.unity.shadergraph": "17.0.4",
+=======
+        "com.unity.render-pipelines.core": "17.0.3",
+        "com.unity.shadergraph": "17.0.3",
+>>>>>>> Stashed changes
         "com.unity.render-pipelines.universal-config": "17.0.3"
       }
     },
@@ -138,19 +151,32 @@
       }
     },
     "com.unity.searcher": {
+<<<<<<< Updated upstream
       "version": "4.9.3",
+=======
+      "version": "4.9.2",
+>>>>>>> Stashed changes
       "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
+<<<<<<< Updated upstream
       "version": "17.0.4",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "17.0.4",
         "com.unity.searcher": "4.9.3"
+=======
+      "version": "17.0.3",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.0.3",
+        "com.unity.searcher": "4.9.2"
+>>>>>>> Stashed changes
       }
     },
     "com.unity.test-framework": {
@@ -206,7 +232,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.core-utils": {
+<<<<<<< Updated upstream
       "version": "2.5.1",
+=======
+      "version": "2.4.0",
+>>>>>>> Stashed changes
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -231,7 +261,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.legacyinputhelpers": {
+<<<<<<< Updated upstream
       "version": "2.1.12",
+=======
+      "version": "2.1.11",
+>>>>>>> Stashed changes
       "depth": 1,
       "source": "registry",
       "dependencies": {

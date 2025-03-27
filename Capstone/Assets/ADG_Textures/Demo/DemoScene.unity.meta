@@ -7,8 +7,16 @@ DefaultImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
+<<<<<<< Updated upstream
   productId: 12555
   packageName: Outdoor Ground Textures
   packageVersion: 1.2.1
   assetPath: Assets/ADG_Textures/Demo/DemoScene.unity
   uploadId: 410572
+=======
+  productId: 222563
+  packageName: Rope Bridge 3D
+  packageVersion: 1.0.0
+  assetPath: Assets/ADG_Textures/Demo/DemoScene.unity
+  uploadId: 541485
+>>>>>>> Stashed changes
