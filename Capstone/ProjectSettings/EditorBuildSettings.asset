@@ -12,6 +12,7 @@ EditorBuildSettings:
     path: Assets/Level1/Practice.unity
     guid: 8a526dee291f5454481b5f4cd50c1c1d
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: dd664e6d677414941b4d9206ca43a678, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b40391d49493c484bbefff8c1d5c2243, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9b83b44688bbb4b47a57fef3b05d15a2, type: 2}

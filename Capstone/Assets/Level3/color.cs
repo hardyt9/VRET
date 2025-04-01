@@ -6,6 +6,10 @@ public class ColorChange : MonoBehaviour
     private Color originalColor;
     private Color transparentColor;
     private Material cubeMaterial;
+    private bool isPlayerInTrigger = false; // Track if the player is inside the trigger
+
+    // Add a field to track transparency state
+    public bool isTransparent { get; private set; } = false;
 
     void Start()
     {
@@ -27,7 +31,7 @@ public class ColorChange : MonoBehaviour
         cubeMaterial.SetInt("_ZWrite", 1); // Ensure depth writing is enabled initially (opaque mode)
         cubeMaterial.SetInt("_RenderQueue", 2000); // Normal opaque render queue
 
-        // Make sure it starts in opaque mode
+        // Ensure it starts in opaque mode
         SetTransparent(false);
     }
 
@@ -37,6 +41,7 @@ public class ColorChange : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("OnTriggerEnter() - Player has entered the trigger area.");
+            isPlayerInTrigger = true; // Player is inside the trigger
             // Change the cube's material color to transparent
             SetTransparent(true);
         }
@@ -52,6 +57,7 @@ public class ColorChange : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("OnTriggerExit() - Player has exited the trigger area.");
+            isPlayerInTrigger = false; // Player is no longer inside the trigger
             // Reset the cube's color back to blue
             SetTransparent(false);
         }
@@ -61,7 +67,7 @@ public class ColorChange : MonoBehaviour
         }
     }
 
-    private void SetTransparent(bool transparent)
+    public void SetTransparent(bool transparent)
     {
         if (transparent)
         {
@@ -72,6 +78,9 @@ public class ColorChange : MonoBehaviour
             // Switch to transparent rendering mode
             cubeMaterial.SetInt("_ZWrite", 0); // Disable depth writing for transparency
             cubeMaterial.SetInt("_RenderQueue", 3000); // Set render queue for transparent objects
+
+            // Mark as transparent
+            isTransparent = true;
         }
         else
         {
@@ -82,6 +91,18 @@ public class ColorChange : MonoBehaviour
             // Switch to opaque rendering mode
             cubeMaterial.SetInt("_ZWrite", 1); // Enable depth writing for opaque
             cubeMaterial.SetInt("_RenderQueue", 2000); // Normal opaque render queue
+
+            // Mark as opaque
+            isTransparent = false;
+        }
+    }
+
+    void Update()
+    {
+        // If there is no collision (player not in trigger), keep it opaque
+        if (!isPlayerInTrigger)
+        {
+            SetTransparent(false); // Keep the cube opaque when the player is not in the trigger
         }
     }
 }

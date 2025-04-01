@@ -56,4 +56,19 @@ public class Move2 : MonoBehaviour
     {
         other.transform.SetParent(null);
     }
+    public void SetSpeed(float newSpeed)
+    {
+        _speed = newSpeed;
+        Debug.Log($"Speed changed to {newSpeed} at {System.DateTime.Now}");
+        //StartCoroutine(SleepAfterLog(5f));
+    }
+
+    private IEnumerator SleepAfterLog(float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);  // Wait for the given time (in seconds)
+
+        // Code to execute after the delay (if any)
+        Debug.Log("Delay finished after " + delayTime + " seconds.");
+    }
+
 }
