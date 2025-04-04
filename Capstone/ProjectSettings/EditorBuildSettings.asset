@@ -6,11 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/exciteometer/Scenes/ExciteOMeter_OfflineAnalysis.unity
-    guid: 3fd7849131ca960428e5299c9b955fec
+    path: Assets/Menu/Menu.unity
+    guid: 2592a7f4b9250c14b801bcf24c7dd582
   - enabled: 1
     path: Assets/Level1/Practice.unity
     guid: 8a526dee291f5454481b5f4cd50c1c1d
+  - enabled: 1
+    path: Assets/Level2_New/Environment_Free.unity
+    guid: 9a925711cea513345ae0ff6e103f17d2
+  - enabled: 1
+    path: Assets/Level3/SampleScene.unity
+    guid: 8eae662f6fa023443baf95536c40360e
+  - enabled: 1
+    path: Assets/exciteometer/Scenes/ExciteOMeter_OfflineAnalysis.unity
+    guid: 3fd7849131ca960428e5299c9b955fec
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: dd664e6d677414941b4d9206ca43a678, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
